@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.module.testapp.presentation.exchange.ExchangeFragment">
+    tools:context="com.module.currencyChanger.presentation.exchange.ExchangeFragment">
 
     <com.google.android.material.appbar.MaterialToolbar
         android:id="@+id/topAppBar"
@@ -17,7 +17,6 @@
         app:menu="@menu/exchange_menu"
         />
 
-
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/vpFrom"
         android:layout_width="0dp"
@@ -27,7 +26,7 @@
         app:layout_constraintEnd_toEndOf="parent"/>
 
     <ImageView
-        android:id="@+id/iv_swap"
+        android:id="@+id/iv_arrow"
         android:layout_width="32dp"
         android:layout_height="32dp"
         android:src="@drawable/ic_arrow_down"
@@ -40,7 +39,7 @@
         android:id="@+id/vpTo"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/iv_swap"
+        app:layout_constraintTop_toBottomOf="@id/iv_arrow"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 

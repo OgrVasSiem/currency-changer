@@ -9,11 +9,11 @@ plugins {
 }
 
 android {
-    namespace = "com.module.testapp"
+    namespace = "com.module.currencyChanger"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.module.testapp"
+        applicationId = "com.module.currencyChanger"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
@@ -47,7 +47,7 @@ android {
 }
 
 ksp {
-    arg("compose-destinations.codeGenPackageName", "com.module.testapp.ui")
+    arg("compose-destinations.codeGenPackageName", "com.module.currencyChanger.ui")
 }
 
 dependencies {

@@ -12,7 +12,6 @@
         android:layout_height="match_parent"
         android:padding="16dp">
 
-        <!-- Код валюты -->
         <TextView
             android:id="@+id/tv_currency_code"
             android:layout_width="wrap_content"
@@ -23,7 +22,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <!-- Вычисленная сумма -->
         <TextView
             android:id="@+id/tv_amount"
             android:layout_width="0dp"
@@ -35,7 +33,6 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@id/tv_currency_code" />
 
-        <!-- Блок баланса пользователя -->
         <TextView
             android:id="@+id/tv_balance"
             android:layout_width="wrap_content"

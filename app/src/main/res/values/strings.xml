@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TestApp</string>
+    <string name="app_name">Currency Changer</string>
     <string name="exchange">Exchange</string>
     <string name="success_title">Success</string>
     <string name="success_message">Exchange completed successfully.</string>

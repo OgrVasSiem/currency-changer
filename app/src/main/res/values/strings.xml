@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">TestApp</string>
+    <string name="exchange">Exchange</string>
+    <string name="success_title">Success</string>
+    <string name="success_message">Exchange completed successfully.</string>
+    <string name="error_title">Exchange Error</string>
+    <string name="error_message_generic">Failed to complete the exchange. Please try again later.</string>
+    <string name="insufficient_funds">Insufficient funds</string>
+    <string name="rate_load_error">Failed to load currency rates</string>
+    <string name="ok">OK</string>
+
+    <string name="exchange_success_title">Success</string>
+    <string name="exchange_success_message">The exchange was successful.</string>
+
+    <string name="exchange_error_title">Exchange Error</string>
+    <string name="exchange_error_message_generic">Failed to perform exchange. Please try again later.</string>
+
+    <string name="balance_template">You have %.2f %s</string>
+    <string name="exchange_same_currency_error">Please select two different currencies.</string>
+
+
+</resources>

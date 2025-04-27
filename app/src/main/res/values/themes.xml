@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.TestApp" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/black</item>
+    </style>
+
+    <style name="Widget.TestApp.Toolbar" parent="Widget.MaterialComponents.Toolbar.Primary">
+        <item name="android:background">@color/transparent</item>
+        <item name="titleTextColor">@color/black</item>
+        <item name="popupTheme">@style/ThemeOverlay.TestApp.PopupOverlay</item>
+    </style>
+
+    <style name="ThemeOverlay.TestApp.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light">
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/black</item>
+    </style>
+</resources>
